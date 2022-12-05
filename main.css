@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    border-bottom: 1px solid rgb(255, 136, 255);
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+    background-color: rgb(255, 255, 255);
+}
+.line{
+    height: 1px;
+    background-color: rgb(255, 255, 255);
+    width: 7rem;
+}
+.rights{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+    background-color: rgb(255, 255, 255);
+    gap: 3rem;
+    font-size: 1.4rem;
+}
+header .title{
+    margin-left: 22rem;
+    font-size: 2.7rem;
+
+}
+header button{
+    background: none;
+    padding: 0.6rem 0.8rem;
+    font-size: 1.3rem;
+    margin-right: 22rem;
+}
+section{
+    background-color: rgb(48, 10, 75);
+    height: 35rem;
+}
+.section{
+    margin: 0rem 22rem;
+    display: flex;
+    gap: 3rem;
+    padding-top: 5rem;
+}
+.section .details{
+
+    width: 35rem;
+    padding-right: 0.5rem;
+}
+.section .details .title{
+    font-size: 4rem;
+    color: rgb(255, 255, 255);
+}
+.section .details .info{
+    color: rgb(186, 186, 186);
+    padding-top: 1rem;
+    font-size: 1.4rem;
+}
+.section .details .plans {
+    background: none;
+    border: white 2px solid ;
+    border-radius: 2px;
+    padding: 0.9rem 1.2rem ;
+    margin-top: 1.6rem;
+    font-size: 1.2rem;
+}
+.section .details button{
+    color: white;
+}
+.section img{
+    width: 32rem;
+    height: 35rem;
+}
+
+.img2{
+    width: 22rem;
+    height: 22;
+    border-radius: 1rem;  
+}
+.section-2 {
+    padding-top: 3.4rem;
+}
+.section-2 .section .details{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+}  
+.section-2 .section .h2{
+    font-size: 3.5rem;
+    color: rgb(0, 0, 0);
+}
+.section-2 .section .p2{
+    color: rgb(186, 186, 186);
+    padding-top: 1rem;
+    font-size: 1.4rem;   
+}
+
+.section-2 .section .learnmore{
+    background: none;
+    color: black;
+    border: rgb(128, 128, 128) 2px solid ;
+    border-radius: 2px;
+    padding: 0.9rem 1.2rem ;
+    margin-top: 1.6rem;
+    font-size: 1.2rem;
+}
+.section3 .line{
+    margin-top: 8rem;
+    margin-bottom: 0.6rem;
+    height: 2px;
+    background-color: rgb(77, 77, 77);
+    width: 14rem;
+}
+.section3{
+    display: flex;
+    flex-direction: column;
+    margin: 0rem 22rem;
+}
+.section3 .title{
+    Font-size: 3.5rem;
+    color: rgb(0, 0, 0);
+}
+.section3 .items{
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 4rem;
+}
+.section3 .items img{
+    width: 5rem;
+    margin-bottom: 3rem;
+}
+.section3 .items .h3{
+    Font-size: 1.8rem;
+    color: rgb(0, 0, 0);
+}
+.section3 .items .des{
+    color: rgb(143, 143, 143);
+    padding-top: 1rem;
+    font-size: 1rem;      
+}
+.sec4 .back{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(69, 35, 93);
+    margin: 4rem 22rem;
+    padding: 3rem 5rem ;
+}
+.sec4 .back .note{
+    color: white;
+    font-size: 4rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.sec4 .back .button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec4 .back button{
+    background: none;
+    color: rgb(255, 255, 255);
+    border: rgb(255, 255, 255) 2px solid ;
+    border-radius: 2px;
+    padding: 0.9rem 1.2rem ;
+    /* margin-top: 1.6rem; */
+    font-size: 1.6rem;
+}
+.sec4 .back button:hover{
+    background-color: white ;
+    color:  rgb(69, 35, 93);
+}
+.proinsure{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 3rem 22rem;
+    margin-bottom: 0rem;
+}
+.proinsure .name{
+    font-size: 2.5rem;
+}
+.proinsure .logo{
+    display: flex;
+    gap: 2rem;
+}
+.line3{
+    margin: 0.4rem 22rem;
+    border: 1px solid rgb(145, 145, 145);
+    
+}
+.head4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    font-size: 2rem;
+    color: rgb(185, 185, 185);
+    margin: 0rem 22rem;
+}
+.credits{
+    padding: 2rem 0rem;
+    background-color: rgb(69, 35, 93) ;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0rem ;
+    margin-bottom: 0rem;
+    font-size: 1.6rem;
+}
